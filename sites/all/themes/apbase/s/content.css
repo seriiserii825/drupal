@@ -1,0 +1,12 @@
+/* Настройка шаблона страницы */
+#page-wrapper { position: relative; min-height: 100%; }
+#page { min-height: 100%; }
+
+#content { width: 960px; float: left; }
+.one-sidebar #content { width: 730px; }
+.one-sidebar.sidebar-second #content { margin: 0 20px 0 0; }
+.two-sidebars #content { width: 500px; margin: 0 20px 0 0; }
+
+#sidebar-first { width: 210px; float: left; margin: 0 20px 0 0; }
+#sidebar-second { width: 210px; float: left; }
+/* /ёНастройка шаблона страницы */
