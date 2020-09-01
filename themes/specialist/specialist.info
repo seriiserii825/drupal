@@ -3,4 +3,13 @@ description = Theme "Specialist"
 package = Core
 version = 0.1
 core = 7.x
-stylesheets[all][] = layout.css
+stylesheets[all][] = layouts.css
+
+regions[sidebar_first] = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[content] = Content
+regions[header] = Header
+regions[navigation] = Navigation
+regions[footer] = Footer
+regions[highlighted] = Highlited
+regions[help] = Help
